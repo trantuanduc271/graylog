@@ -182,6 +182,4 @@ helm upgrade --install --namespace "graylog" graylog kong-z/graylog --set mongod
 ### Create Stream
 Stream là bộ lọc các message đáp ứng một hoặc nhiều rule.
 
-https://user-images.githubusercontent.com/116000712/201386752-3af63725-f0a8-4f2b-839e-e3f83f7d5560.mp4
-
-
+https://user-images.githubusercontent.com/116000712/201387021-96d0fb2f-970d-47de-9266-76b12d75c9e0.mp4
