@@ -169,7 +169,7 @@ Filebeats sẽ được cài đặt dưới dạng Sidecar Container. Log file p
 [Reference: toolbox-app-helm-charts](<https://github.com/tuanductran/toolbox-app-helm-charts/>)
 
 ## Sử dụng Graylog
-### Index Rotate 
+### Index Rotation
 Cần rotate Index định kì nếu không sẽ tràn bộ nhớ của ElasticSearch.
 
 ![graylog_index_rotation](/image/graylog_index_rotation.jpeg#center)
@@ -178,5 +178,9 @@ Cần rotate Index định kì nếu không sẽ tràn bộ nhớ của ElasticS
 ```shell
 helm upgrade --install --namespace "graylog" graylog kong-z/graylog --set mongodb.replicaCount=2 --set mongodb.auth.enabled=false --set mongodb.persistence.size="500Gi" --set tags.install-elasticsearch=false --set graylog.transportEmail.enabled=true --set graylog.transportEmail.hostname="mailhost.tb.ahlad.priv" --set graylog.transportEmail.port="25" --set graylog.transportEmail.useAuth=false --set graylog.transportEmail.useTls=false --set graylog.transportEmail.useSsl=false --set graylog.transportEmail.subjectPrefix="[graylog]" --set graylog.transportEmail.fromEmail="noreply-graylog@aussie.com.au"
 ```
+
+### Create Stream
+Stream là bộ lọc các message đáp ứng một hoặc nhiều rule.
+
 
 
