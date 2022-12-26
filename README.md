@@ -186,4 +186,5 @@ https://user-images.githubusercontent.com/116000712/201387021-96d0fb2f-970d-47de
 
 ### Tạo Alert
 #### Event
-Là các sự kiện được định nghĩa cần có cảnh bảo.
+Là các sự kiện xảy ra trong hệ thống cần được cảnh bảo tới người quản trị.
+
