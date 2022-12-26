@@ -198,5 +198,4 @@ https://user-images.githubusercontent.com/116000712/209561845-0964096d-184b-46d5
 
 Sau đó ta gắn Notification vào Event là sẽ có một Alert hoàn chỉnh.
 
-
-
+https://user-images.githubusercontent.com/116000712/209562649-35e70d97-1d84-495a-bb97-7df07cc19763.mp4
