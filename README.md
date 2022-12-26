@@ -190,4 +190,8 @@ Là các sự kiện xảy ra trong hệ thống cần được cảnh bảo t�
 
 https://user-images.githubusercontent.com/116000712/209559761-ee5cd223-92e6-499d-8955-1d07b4e77d5d.mp4
 
+https://user-images.githubusercontent.com/116000712/209560892-95315d24-3c35-4f52-a451-fb7470fe55d2.mp4
+
+
+
 
