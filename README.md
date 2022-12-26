@@ -188,4 +188,6 @@ https://user-images.githubusercontent.com/116000712/201387021-96d0fb2f-970d-47de
 #### Event
 Là các sự kiện xảy ra trong hệ thống cần được cảnh bảo tới người quản trị.
 
-https://user-images.githubusercontent.com/116000712/209558403-3bb54154-f380-4ac8-ae4d-966395dfd818.mp4
+https://user-images.githubusercontent.com/116000712/209559761-ee5cd223-92e6-499d-8955-1d07b4e77d5d.mp4
+
+
