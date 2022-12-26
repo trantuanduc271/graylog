@@ -179,7 +179,11 @@ Cần rotate Index định kì nếu không sẽ tràn bộ nhớ của ElasticS
 helm upgrade --install --namespace "graylog" graylog kong-z/graylog --set mongodb.replicaCount=2 --set mongodb.auth.enabled=false --set mongodb.persistence.size="500Gi" --set tags.install-elasticsearch=false --set graylog.transportEmail.enabled=true --set graylog.transportEmail.hostname="mailhost.tb.ahlad.priv" --set graylog.transportEmail.port="25" --set graylog.transportEmail.useAuth=false --set graylog.transportEmail.useTls=false --set graylog.transportEmail.useSsl=false --set graylog.transportEmail.subjectPrefix="[graylog]" --set graylog.transportEmail.fromEmail="noreply-graylog@aussie.com.au"
 ```
 
-### Create Stream
+### Tạo Stream
 Stream là bộ lọc các message đáp ứng một hoặc nhiều rule.
 
 https://user-images.githubusercontent.com/116000712/201387021-96d0fb2f-970d-47de-9266-76b12d75c9e0.mp4
+
+### Tạo Alert
+#### Event
+Là các sự kiện được định nghĩa cần có cảnh bảo.
