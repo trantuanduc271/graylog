@@ -166,7 +166,7 @@ kubectl apply -f .
 #### Filebeats
 Filebeats sẽ được cài đặt dưới dạng Sidecar Container. Log file path sẽ được share giữa 02 container (E.g. toolbox-app và filebeat-sidecar). Container filebeat-sidecar sẽ đọc ConfigMap cùng namespace. Tham khảo Deployment và ConfigMap của Filebeats sau:
 
-[Reference: toolbox-app-helm-charts](<https://github.com/tuanductran/toolbox-app-helm-charts/>)
+[Reference: toolbox-app-helm-charts](<https://1drv.ms/u/s!ArBCpGw74ziRh-dEmlqTuLS7Tysg4w?e=94FkH3/>)
 
 ## Sử dụng Graylog
 ### Index Rotation
